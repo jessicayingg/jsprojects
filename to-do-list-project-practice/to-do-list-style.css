@@ -1,0 +1,41 @@
+body {
+    padding-left: 10px;
+    font-family: Arial;
+}
+
+.js-list-container, .input-grid {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    align-items: center;
+}
+
+.input-grid {
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+.task-input, .date-input {
+    font-family: Arial;
+    padding: 10px;
+}
+
+.add-button {
+    border: none;
+    color: white;
+    background-color: green;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.delete-button {
+    border: none;
+    color: white;
+    background-color: rgb(158, 0, 0);
+    height: 40px;
+
+    cursor: pointer;
+}
